@@ -1,0 +1,234 @@
+  .html {
+	  font-size: 100%;
+  }	  
+  
+   .all {
+	  background-color: powderblue;
+      text-align: center; 
+  }
+  
+
+  .textpoeme {
+	  font-size: 1.3rem;
+  }
+  
+  .menu-title {
+	  font-size: 300%;
+      font-family: Century  Gothic;
+	  text-align: center;
+	  text-shadow: 2px 2px #333333;
+	  color: floralwhite;
+  }
+
+  .pagemenu {
+	height: 1537px;
+	width: 1200px;	
+	border-radius:25px;
+	margin: 0 auto;
+}
+
+  .textemenu1 {
+	font-size: 150%;
+	font-family: Century  Gothic;
+	text-align: left;
+	font-weight: bold;
+	text-shadow: 1px 2px #333333;
+	color: floralwhite;
+	padding: 1% 6% 0% 4%;
+  }
+
+  .textemenu2 {
+	font-size: 120%;
+	font-family: Century  Gothic;
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 1px 1px #333333;
+	color: floralwhite;
+	padding: 0 5% 5% 15%;
+  }
+
+  .titredernierepubli {
+	font-size: 120%;
+	font-family: 'Helvetica';
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 1px 1px #333333;
+	color: floralwhite;
+	margin: 0 45% 0 5%;
+  }
+
+  .linkpoemmenu {
+	text-decoration: none;
+	color: black;
+}
+
+  .casepoememenu {
+	border: solid;
+	border-radius: 5px;
+	padding: 1% 0% 0% 2%;
+	margin: 3% 43% 0 7%;
+	border-color: whitesmoke;
+	box-shadow: 1px 1px #333333;
+  }
+
+  .casepoememenu:hover {
+	box-shadow: 2px 2px #333;
+}
+  
+  .basdepage {
+	  font-family: Brush Script MT;
+	  font-size: 200%;
+	  margin-right: 5%;
+  }
+
+  .header{
+	  height: 20%;
+	  width: 90%;
+	  position: relative;
+      padding: 5px;
+	  margin: 2% 5%;
+  }
+
+
+  .barrenavig {
+	  list-style-type:  none;
+	  margin: 0 ;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+  }
+  .barrenavig li {
+	  display: inline;
+	  float: left;
+	  border-right: 1px solid #bbb;
+  } 
+  .barrenavig a {
+	  display: block;
+	  padding: 18px 16px;
+	  color: whitesmoke;
+	  text-align: center;
+	  text-decoration: none;
+	  font-family: Helvetica;
+	  font-size: 17px;
+  }
+
+  .barrenavig a:hover {
+	  background-color: #111
+  }
+
+  .active {
+	  background-color: #77c9d4;
+  }
+
+  .pageci{
+	  background-color: powderblue;
+  }
+
+  .paragrapheci {
+      column-count: 2;
+  }
+
+  .column1 {
+	  break-after: column;
+  }
+
+  .sous-titreci {
+	  margin: 4% 5%;
+	  font-family: century Gothic;
+  }
+
+  .textci {
+	  margin-left: 10%;
+	  font-family: Helvetica;
+  }
+
+  .formulaire {
+	  background-color: powderblue;
+	  width: 85%;
+	  margin: 0 7%;
+	  padding: 15px 0;
+  }
+
+  .caseform {
+	  margin: 3px 0 6px 0;
+      width: 45%;
+	  margin-left: 28%;
+	  border-radius: 7px;
+  }
+
+  .textform {
+      font-family: 'Lucida Console';
+	  margin: 20px 0 0 27%;
+	  font-size: 19px;
+  }
+
+  .boutonform {
+      margin: 5px 0 0 68%;
+	  width: 15%;
+	  height: 7%;
+	  background-color: #999;
+	  border-radius: 10px;
+	  border-color: #999;
+	  font-family: 'Century Gothic';
+  }
+
+
+  .sous-titrep {
+	text-align: center;
+	font-family: 'century Gothic';
+	font-size: 150%;
+}
+
+.textp {
+	text-align: center;
+	font-family: 'Helvetica';
+	font-size: 100%;
+	font-style: italic;
+}
+
+.listpoem {
+	break-after: column;
+	padding: 0% 3%;
+
+}
+
+.linkpoem {
+	text-decoration: none;
+	color: black;
+	
+}
+
+.casepoeme {
+	border: solid;
+	border-radius: 5px;
+	padding: 1% 0% 0% 2%;
+	margin: 3% 0%;
+	border-color: whitesmoke;
+	box-shadow: 1px 1px #333333;
+}
+
+.titrepoeme {
+	font-family: 'Century Gothic';
+	font-size: 28px;
+	margin: 5px 0 0px 0;
+}
+
+.descriptif {
+    font-style: italic;
+	font-family: Helvetica;
+	font-size: 15px;
+	margin: 5px 25px;
+	text-align: left;
+
+}
+
+.titrebiblio {
+    text-align: center;
+	font-size: 38px;
+}
+
+.casepoeme:hover {
+	box-shadow: 2px 2px #333;
+}

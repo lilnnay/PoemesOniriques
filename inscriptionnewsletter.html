@@ -1,0 +1,42 @@
+<!DOCTYPE html >
+<html lang="fr">
+    <head>
+	    <meta charset="utf-8">
+	    <title>Newsletter - Poèmes oniriques</title>
+	    <link rel="icon" href="medias/icone.png">
+      <link rel="stylesheet" href="styles.css"> 
+	</head>
+
+    <body class="pageci">
+    
+      <ul class="barrenavig">
+         <li> <a href="menu.html">Menu</a></li>
+         <li> <a href="poeme.html">Les Poèmes</a></li>	
+         <li> <a href="info.html">Informations</a></li>
+         <li> <a href="contact.html">Me contacter</a></li>
+      </ul>
+
+      <img src="medias/newsletter.jpg" style="width:50%; margin:2% 25% 0 25%">
+      <h2 style="font-family: century Gothic; margin-left: 5%"> Pourquoi s'inscrire à ma newsletter ?</h2>
+      <p class="textci">Completer ce formulaire vous permettra de recevoir notre newsletter, ainsi vous serez avertit lors de la publication de nouveau poèmes, vous profiterez d'informations exclusives et vous serez tenu au courant des news du site !</p>
+    </br>
+      
+    <div class="formulaire">
+      <form action="basedonnées.xlsx" method="post">
+
+        <label for="nom" class="textform">Entrez votre nom :</label> <br>       
+        <input type="text" id="nom" class="caseform" required> <br>
+
+        <label for="prenom" class="textform">Entrez votre prénom :</label> <br>       
+        <input type="text" id="prenom" class="caseform" required> <br>
+
+        <label for="email" class="textform">Entrez votre email :</label> <br>        
+        <input type="email" id="email" class="caseform" required> <br>
+
+        <button type="submit" class="boutonform"><strong>S'inscrire</strong></button>
+      </form>
+    </div>
+
+
+    </body>
+     
